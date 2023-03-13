@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Calculadora de IMC</h1>
+    <form>
+    <p><label>Altura em CM: </label><input type="text" id="altura"></p>
+    <p><label>Peso em KG: </label><input type="text" id="peso"></p>
+    <button>Calcular</button>
+    <div id="resultado"></div>
+    <div id="weight-guide">
+    <h3>Guia de peso do IMC</h3>
+    <p>Baixo peso = Menor que 18.6</p>
+    <p>Peso normal = 18.6 e 24.9</p>
+    <p>Excesso de peso = Maior que 24.9</p>
+    </div>
+    </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
